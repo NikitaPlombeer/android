@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:padding="16dp"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:text="Покушал в McDonalds"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameTextView"
+        android:layout_toLeftOf="@+id/countTextView"
+        android:layout_toStartOf="@+id/countTextView"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textColor="@color/primaryText"
+        android:textSize="18sp" />
+
+    <TextView
+        android:text="-100"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/countTextView"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:textColor="#FF0000" />
+
+    <TextView
+        android:text="Еда"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/nameTextView"
+        android:id="@+id/categoryTextView"
+        android:layout_marginTop="5dp"
+        android:layout_alignLeft="@+id/nameTextView"
+        android:layout_alignStart="@+id/nameTextView"
+        android:background="@drawable/text_view_background"
+        android:textColor="#FFFFFF"
+        android:padding="5dp"
+        android:textSize="10sp" />
+
+</RelativeLayout>

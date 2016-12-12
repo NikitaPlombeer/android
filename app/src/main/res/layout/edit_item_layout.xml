@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/name"
+        android:textCursorDrawable="@color/colorAccent"
+        app:met_baseColor="@color/primaryText"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorAccent"
+        app:met_singleLineEllipsis="true"
+        android:id="@+id/nameEditText"
+        android:layout_margin="10dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp" />
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ms_hint="Категория"
+        app:ms_baseColor="@color/primaryText"
+        app:ms_floatingLabelText="Категория"
+        android:id="@+id/categorySpinner"
+        android:layout_margin="10dp" />
+
+    <fr.ganfra.materialspinner.MaterialSpinner
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:ms_hint="Тип"
+        app:ms_baseColor="@color/primaryText"
+        app:ms_floatingLabelText="Тип"
+        android:id="@+id/financeTypeSpinner"
+        android:layout_margin="10dp" />
+
+    <com.rengwuxian.materialedittext.MaterialEditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="@string/count"
+        android:textCursorDrawable="@color/colorAccent"
+        app:met_baseColor="@color/primaryText"
+        app:met_floatingLabel="highlight"
+        app:met_primaryColor="@color/colorAccent"
+        app:met_singleLineEllipsis="true"
+        android:id="@+id/countEditText"
+        android:padding="10dp"
+        android:layout_margin="10dp"
+        android:inputType="numberDecimal" />
+</LinearLayout>

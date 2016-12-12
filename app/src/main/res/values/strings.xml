@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">Finance Manager</string>
+    <string name="list">Список</string>
+    <string name="graphics">Графики</string>
+    <string name="visualization">Визуализация</string>
+    <string name="prediction">Прогнозирование</string>
+    <string name="achievements">Достижения</string>
+    <string name="search">search</string>
+    <string name="add">add</string>
+    <string name="name">Название</string>
+    <string name="count">Сумма</string>
+    <string name="create">Создать</string>
+    <string name="update">Обновить</string>
+    <string name="cancel">Отмена</string>
+    <string name="food">Еда</string>
+    <string name="car">Машина</string>
+    <string name="transport">Транспорт</string>
+    <string name="home">Жилье</string>
+    <string name="taxi">Такси</string>
+    <string name="health">Здоровье</string>
+    <string name="cafe">Кафе</string>
+    <string name="hygiene">Гигиаена</string>
+    <string name="entertainment">Разлечение</string>
+    <string name="sport">Спорт</string>
+    <string name="clothes">Одежда</string>
+    <string name="communication">Связь</string>
+    <string name="pets">Домашние животные</string>
+    <string name="salary">Зарплата</string>
+    <string name="gifts">Подарки</string>
+    <string name="costs">Расходы</string>
+    <string name="earnings">Доходы</string>
+    <string name="delete">Удалить</string>
+</resources>
